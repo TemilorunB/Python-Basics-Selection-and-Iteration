@@ -1,0 +1,37 @@
+Variables are used to store a value, and these values have a data type. Data types describe the kind of information that is being stored. 
+Numbers are different than text, and integers are different from numbers with decimals. Variable declaration is when you create a variable and assign it a value. Enter the name of the variable you want to create, a = (called the assignment operator), and the value you want to store in the variable. You do not have to indicate the data type when declaring a variable. Use the print statement to see the value of the variable.
+
+my_variable = "Hello world"
+print(my_variable)
+
+note: Do not use quotation marks when printing a variable. Using quotation marks will print the variable name, not its value.
+my_variable = "Hello world"
+print(my_variable)
+print("my_variable")
+
+my_variable = "Hello world"
+print(my_variable)
+my_variable = "Goodbye world"
+print(my_variable)
+
+Strings
+A string is a collection of text, numbers, or symbols. Strings are always surrounded by quotation marks.
+string_variable = "This is a string"
+second_string = 'This is a string also'
+print(string_variable)
+print(second_string)
+
+
+Boolean values mean True or False. You will see how boolean values are used when we talk about conditionals and while loops.
+boolean_variable = True
+print(boolean_variable)
+
+Integers
+Integers (often called ints) are whole numbers. They can be positive or negative. Do not use a comma when typing large numbers
+5 vs. '5'
+integer_variable = 50
+print(integer_variable)
+
+Floating point numbers (often called floats) are numbers with a decimal. They can be positive or negative.
+float_variable = 50.0
+print(float_variable)
